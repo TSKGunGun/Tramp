@@ -50,7 +50,7 @@ bool COldMaidGame::Initialize()
     
     Deck.Shuffle();
     //Deck.PrintCards();
-    vector< CCardDeck* > Decks;
+    vector< CCardDeck* > Decks;  
     for( int ii = 0; ii < m_Players.GetCount(); ii++ )
         Decks.push_back( m_Players.GetAt(ii)->GetDeck() );
     
